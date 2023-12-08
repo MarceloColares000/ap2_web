@@ -2,7 +2,7 @@
 
 ## Prova AP2 de Linguagens e Tecnologias para Desenvolvimento WEB
 
-# E meus primeiros passos no vue
+E meus primeiros passos no vue
 
 ## Project setup
 ```
