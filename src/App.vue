@@ -11,7 +11,6 @@ export default {
   components: {
     Form,
   },
-  // Outros detalhes do componente App.vue
 };
 </script>
 

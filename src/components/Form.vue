@@ -32,7 +32,10 @@
                                           <textarea class="form-control" :class="{'is-invalid': dados.descricao === ''}" id="descricao" v-model="dados.descricao" required></textarea>
                                           <div class="invalid-feedback">Por favor, forneça uma breve descrição.</div>
                                       </div>
-                                      <button type="submit" class="btn btn-lg btn-block btn-primary mt-4 text-center">Cadastrar</button>
+                                      <div class="form-group row">
+                                        <button type="submit" class="btn btn-lg btn-block btn-primary mt-4 text-center">Cadastrar</button>
+                                        <button type="reset" class="btn btn-lg btn-block btn-danger mt-4 text-center">Cancelar</button>
+                                      </div>
                                   </form>
                                   <div class="data mt-4" v-if="mostrarDados">
                                       <h2 class="title">Dados Enviados:</h2>
